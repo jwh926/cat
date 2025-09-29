@@ -1,0 +1,11 @@
+# Compiled binaries
+cat
+*.o
+*.out
+
+# Test files
+test.txt
+
+# Temporary files
+*.tmp
+*~
