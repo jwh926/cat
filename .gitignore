@@ -3,8 +3,9 @@ cat
 *.o
 *.out
 
-# Test files
+# Test files  
 test.txt
+test_example.txt
 
 # Temporary files
 *.tmp
