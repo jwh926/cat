@@ -95,9 +95,3 @@ Simple output function that writes characters to stdout one by one.
 ### Synchronization
 
 The code uses memory barriers (`read_barrier()` and `write_barrier()`) implemented as compiler memory barriers to ensure proper ordering of memory operations when accessing shared ring buffers between user and kernel space.
-
-### Error Handling
-
-- System call failures are handled with `perror()` for diagnostic output
-- File operations include proper error checking and cleanup
-- I/O completion errors are reported through completion queue entry results
